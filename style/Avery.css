@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Nunito Sans;
+    src: url(../Fonts/NunitoSans_10pt-Regular.ttf);
+}
 a.nav-link{
     color:#471F29!important;
     text-decoration : none;
@@ -6,7 +10,46 @@ a.nav-link:hover{
     color:#D05353 !important;
     text-decoration : underline;
 }
+hr{
+    color: #D05353;
+    border-color: #D05353;
+    border: 1px solid;
+}
+.fthr{
+    color: #471F29;
+}
+.footerbg{
+    background-color: #F2CDBA;
+}
+.footerBtn{
+    background-color: #471F29;
+    border: none;
+    border-radius: 15px;
+    width: 8%;
+    height: 3%;
+}
+.ftBtnTxt{
+    color: white;
+    font-family: Nunito Sans;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-top: 10%;
+    padding-bottom: none;
+}
 .headerTxt{
     color: #A42D2D;
     text-align: center;
+}
+.bodyTxt{
+    font-family: Nunito Sans;
+}
+.wineBtn{
+    background-color: #471F29;
+    border: 1px solid #F2CDBA;
+    border-radius: 15px;
+}
+.btnTxt{
+    color: white;
 }
