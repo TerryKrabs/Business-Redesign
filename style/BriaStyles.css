@@ -1,0 +1,59 @@
+/* .BG{
+    background-image: url(../Photos/Elisa.png);
+    height: 500px;
+} */
+.Txt1{
+font-size: 25px ;
+font-weight:bold;
+padding-top: 10%;
+text-align: center;
+}
+.img{
+    height: 500px;
+}
+.Titletxt{
+    position: absolute;
+    top: 32%;
+    bottom: 50%;
+    color: #F2CDBA;
+   left: 20%;
+
+}
+.whiteTxt{
+    color: white;
+}
+.whiteDec{
+    text-decoration: underline;
+}
+.pinkTxt{
+    color:#D05353;
+}
+a.nav-link{
+    color:#471F29!important;
+    text-decoration : none;
+}
+a.nav-link:hover{
+    color:#D05353 !important;
+    text-decoration : underline;
+}
+.titleBox{
+    background-color: #471F29;
+    height: 120px;
+    position: absolute;
+    top: 15%;
+    bottom: 50%;
+    width: 300px;
+    margin-bottom: 40%;
+    left: 15%;
+    border-radius:20px ;
+    
+
+}
+.padIcon{
+padding-bottom: 10px;
+padding-top: 10px;
+}
+.redBox{
+    background-color: #471F29;
+    height: 150px;
+}
