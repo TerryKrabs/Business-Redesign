@@ -1,0 +1,8 @@
+a.nav-link{
+    color:#471F29!important;
+    text-decoration : none;
+}
+a.nav-link:hover{
+    color:#D05353 !important;
+    text-decoration : underline;
+}
