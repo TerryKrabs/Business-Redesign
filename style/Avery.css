@@ -6,3 +6,7 @@ a.nav-link:hover{
     color:#D05353 !important;
     text-decoration : underline;
 }
+.headerTxt{
+    color: #A42D2D;
+    text-align: center;
+}

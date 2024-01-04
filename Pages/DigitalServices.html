@@ -3,11 +3,115 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Hola Digital Services</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/Avery.css">
   </head>
   <body>
-    <h1>Hello World</h1>
+    <!-- navbar here -->
+    <div class="container-fluid">
+      <div class="row">
+        <ul
+          class="nav justify-content-center logo align-items-end padIcon"
+          style="background-color: #F2CDBA"
+        >
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Rooms">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Blog</a>
+          </li>
+          <div class="logo d-flex justify-content-center">
+            <img
+              src="../Photos/Vector.png" 
+              style="height: 40px; padding-bottom: 7%"
+            />
+          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#Amenities">Garden</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Nutrition</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Reserve">Services</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      <!-- navbar end -->
+
+    <h1 class="headerTxt">Hola Digital Services</h1>
+
+    <p>Am I the only one that has a love/hate relationship with social media? Before the pandemic I dabbled in content creation for a side hustle of mine. During the pandemic a close friend needed some marketing assistance with her real estate business and a new side hustle was born. Digital creation and marketing have become fulfilling and fun-filled. I have met some wonderful people doing this job and I have been able to grow and learn so much about digital media and the real estate industry I wish I’d known 30 years ago! I think the thing I love most about digital creation is creating. I am an artist at heart after all.</p>
+
+    <hr>
+
+    <!-- advertisement gallery -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <a href="..."> <p>Real Estate Social Media Post</p>
+          <img src="../Photos/6link.webp" alt="..." style="height: 200px;"> </a>
+        </div>
+        <div class="col">
+          <a href="..."> <p>Property Sale Advertisement</p>
+            <img src="../Photos/2link.webp" alt="..." style="height: 200px;"> </a>
+        </div>
+        <div class="col">
+          <a href="..."> <p>Real Estate Group Advertisement</p>
+            <img src="../Photos/3link.webp" alt="..." style="height: 200px;"> </a>
+        </div>
+        <div class="col">
+          <a href="..."> <p>Easter Inspired Menu</p>
+            <img src="../Photos/4link.webp" alt="..." style="height: 200px;"> </a>
+        </div>
+        <div class="col">
+          <a href="..."> <p>Kentucky Derby Inspired Menu</p>
+            <img src="../Photos/5link.webp" alt="..." style="height: 200px;"> </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- carousel portfolio -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <!-- first img -->
+        <div class="carousel-item active">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <!-- end of imgs -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- connect with me btn, will link back to connect section of homepage -->
+    <button type="button" class="btn btn-lg">Connect With Me</button>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
