@@ -1,4 +1,8 @@
 @font-face {
+    font-family: Belanga;
+    src: url(../Fonts/Belanga.ttf);
+}
+@font-face {
     font-family: Nunito Sans;
     src: url(../Fonts/NunitoSans_10pt-Regular.ttf);
 }
@@ -35,6 +39,7 @@ hr{
     font-size: 25px;
 }
 .headerTxt{
+    font-family: Belanga;
     color: #A42D2D;
     text-align: center;
 }
@@ -53,5 +58,5 @@ hr{
     display: grid;
     grid-template-rows: 1fr 1fr;
     max-width: 1000px;
-    
+
 }
