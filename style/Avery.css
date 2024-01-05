@@ -45,17 +45,17 @@ hr{
 }
 .ftHeader{
     font-family: Belanga;
-    font-size: 40px;
+    font-size: 45px;
     position: absolute;
-    right: 15%;
+    right: 18%;
 }
 .signup{
-    margin-left: 50px;
+    margin-left: 5%;
 }
 .socials{
     display: flex;
     justify-content: end;
-    margin-right: 50px;
+    margin-right: 5%;
 }
 .fthr{
     color: #471F29;
@@ -67,6 +67,11 @@ hr{
 .foot-col{
     display: flex;
     justify-content: center;
+}
+.foot-col2{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
 }
 .link-space{
     padding-top: 10px;
