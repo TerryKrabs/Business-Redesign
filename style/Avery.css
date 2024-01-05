@@ -166,13 +166,14 @@ a.wineBtn:hover{
     place-items: center;
     width: 14%;
     text-align: center;
+    margin: auto;
 }
 .blog-btn-txt{
     font-size: 35px;
     margin: 15px;
 }
 
-.card-body{
+.productBody{
     border-top: 1px solid black;
 }
 .card-img-top{
@@ -195,3 +196,12 @@ a.adLinks:hover{
 }
 
 /* media query- hide magicBox and magicImg */
+@media screen and (max-width: 500px) {
+    .magicBox{
+        display: none;
+    }
+    .magicImg{
+        display: none;
+    }
+    
+}
