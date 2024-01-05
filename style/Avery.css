@@ -81,13 +81,28 @@ hr{
     font-family: Nunito Sans;
     font-size: 25px;
 }
+
 .headerTxt{
     font-family: Belanga;
     color: #A42D2D;
     text-align: center;
+    font-size: 64px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+}
+.sub-header-txt{
+    font-family: Belanga;
+    color: black;
+    text-align: center;
+    font-size: 45px;
 }
 .bodyTxt{
     font-family: Nunito Sans;
+}
+a.wineBtn:hover{
+    background-color: #471F29;
+    border-color: #471F29;
+    text-decoration: underline;
 }
 .wineBtn{
     background-color: #471F29;
@@ -96,10 +111,54 @@ hr{
 }
 .btnTxt{
     color: white;
+    font-family: Belanga;
 }
+
+
 .blogBox{
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    max-width: 1000px;
+    grid-template-rows: 1fr 30px 1fr;
+    width: 95%;
+}
+.blogPost{
+    width: 90%;
+    place-self: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.cardBg{
+    background-color: #F2CDBA;
+}
+.headerBg{
+    background-color: #471F29;
+}
+.blog-head-txt{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 1px;
+}
+.blogTitle{
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1%;
+}
+.blogBtn{
+    display: grid;
+    place-items: center;
+    width: 14%;
+    text-align: center;
+}
+.blog-btn-txt{
+    font-size: 35px;
+    margin: 15px;
+}
 
+.card-body{
+    border-top: 1px solid black;
+}
+.card-img-top{
+    height: 320px;
+    object-fit: cover;
 }
