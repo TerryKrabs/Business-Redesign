@@ -14,6 +14,10 @@ a.nav-link:hover{
     color:#D05353 !important;
     text-decoration : underline;
 }
+.padIcon{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    }
 a.foot-link{
     color: #471F29;
     text-decoration: none;
