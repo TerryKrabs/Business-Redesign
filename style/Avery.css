@@ -200,6 +200,13 @@ a.adLinks:visited{
 a.adLinks:hover{
     color: #D05353;
 }
+.caroSize{
+    margin: 7%;
+    margin-bottom: 5%;
+}
+.magicList{
+    display: none;
+}
 
 /* media query- hide magicBox and magicImg */
 @media screen and (max-width: 576px) {
@@ -208,6 +215,23 @@ a.adLinks:hover{
     }
     .magicImg{
         display: none;
+    }
+    .magicList{
+        display: block;
+    }
+    .adBox{
+        margin-bottom: 0px;
+        margin-top: 10%;
+    }
+    .normalList{
+        display: none;
+    }
+    .adLinks{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .caroSize{
+        margin-top: 20px;
     }
     
 }
