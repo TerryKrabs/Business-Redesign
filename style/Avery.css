@@ -17,6 +17,7 @@ hr{
 }
 .fthr{
     color: #471F29;
+    border-color: #471F29;
 }
 .footerbg{
     background-color: #F2CDBA;
@@ -26,17 +27,12 @@ hr{
     border: none;
     border-radius: 15px;
     width: 8%;
-    height: 3%;
+    height: 50px;
 }
 .ftBtnTxt{
     color: white;
     font-family: Nunito Sans;
     font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    padding-top: 10%;
-    padding-bottom: none;
 }
 .headerTxt{
     color: #A42D2D;
@@ -52,4 +48,10 @@ hr{
 }
 .btnTxt{
     color: white;
+}
+.blogBox{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    max-width: 1000px;
+    
 }
