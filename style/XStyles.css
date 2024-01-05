@@ -1,0 +1,55 @@
+.privacyPol{
+font-family: 'Chenla';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 118px;
+text-align: center;
+color: black
+}
+
+
+.Hola{
+font-family: 'Charmonman';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 122px;
+text-align: center;
+color: #A42D2D;
+}
+.breakpoint{
+/* margin: auto; */
+margin-left: 113px;
+width: 1600px;
+border: 1px solid #D05353;
+}
+
+.Aeroponics{
+font-family: 'Charmonman';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 76px;
+text-align: center;
+color: #000000;
+}
+
+.gardenSpeech{
+font-family: 'Nunito Sans' 'charmonman';
+ font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33px;
+text-align: center;
+color: #000000;
+}
+
+.expand{
+    margin-left: 113px;
+    width: 1600px;
+}
+.fixMe{
+display: flex;
+justify-content: center;
+}
