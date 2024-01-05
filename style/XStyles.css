@@ -22,27 +22,33 @@ color: #A42D2D;
 /* margin: auto; */
 margin-left: 113px;
 width: 1600px;
-border: 1px solid #D05353;
-}
+border: 1.5px solid #D05353;
 
+}
+.Blackbreakpoint{
+    margin-left: 52px;
+width: 1600px;
+border: 1.3px solid #000000;
+
+}
 .Aeroponics{
-font-family: 'Charmonman';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 76px;
-text-align: center;
-color: #000000;
+    font-family: 'Charmonman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 76px;
+    text-align: center;
+    color: #000000;
 }
 
 .gardenSpeech{
-font-family: 'Nunito Sans' 'charmonman';
- font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 33px;
-text-align: center;
-color: #000000;
+    font-family: 'Nunito Sans' 'charmonman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
 }
 
 .expand{
@@ -50,6 +56,36 @@ color: #000000;
     width: 1600px;
 }
 .fixMe{
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+.policyTitles{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.containerShrink{
+    width: 1700px;
+    justify-content: center;
+    display: block;
+    margin: auto;
+}
+
+.policyTxt{
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+color: #000000;
+
+
+}
+
+.BlackbreakpointV1{
+    margin-left: 105px;
+    width: 1600px;
+    border: 1px solid #000000;
 }
