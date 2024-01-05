@@ -30,6 +30,9 @@ hr{
     color: #D05353;
     border-color: #D05353;
     border: 1px solid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .footerbg{
     background-color: #F2CDBA;
@@ -95,6 +98,7 @@ hr{
     color: black;
     text-align: center;
     font-size: 45px;
+    margin-top: 1%;
 }
 .bodyTxt{
     font-family: Nunito Sans;
@@ -102,7 +106,7 @@ hr{
 a.wineBtn:hover{
     background-color: #471F29;
     border-color: #471F29;
-    text-decoration: underline;
+    text-decoration: underline white;
 }
 .wineBtn{
     background-color: #471F29;
@@ -112,6 +116,15 @@ a.wineBtn:hover{
 .btnTxt{
     color: white;
     font-family: Belanga;
+    font-size: 35px;
+    margin-bottom: 1px;
+}
+.midBtn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 13%;
+    margin: auto;
 }
 
 
@@ -162,3 +175,19 @@ a.wineBtn:hover{
     height: 320px;
     object-fit: cover;
 }
+
+.adBox{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+a.adLinks{
+    color: #471F29;
+}
+a.adLinks:visited{
+    color: #471F29;
+}
+a.adLinks:hover{
+    color: #D05353;
+}
+
+/* media query- hide magicBox and magicImg */
