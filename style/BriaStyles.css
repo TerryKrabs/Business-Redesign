@@ -18,8 +18,6 @@
         bottom: 50%;
         color: #F2CDBA;
        left: 20%;
-       font-family:Belanga; ;
-       font-size: 40px;
     
     }
     .marginPhoto{
@@ -36,7 +34,7 @@
         }
         .redBox2{
             background-color: #471F29;
-            height: 500px!important;
+            height: 700px;
         }
         .nutritionTxt{
             padding-right: 0px;
