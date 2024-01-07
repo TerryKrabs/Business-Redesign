@@ -14,36 +14,58 @@
     />
   </head>
   <body>
-    <div class="container-fluid ">
+    <div class="container d-lg-none">
       <div class="row">
-        
+<nav class="navbar navbar-expand-lg "style="background-color: #f2cdba">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./index.html"><img src="./Photos/Vector.png" alt="" srcset=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="#">Shop</a>
+        <a class="nav-link" href="#">About Me</a>
+        <a class="nav-link" href="#">Blog</a>
+        <a class="nav-link" href="#">Garden</a>
+        <a class="nav-link" href="#">Nutrition</a>
+        <a class="nav-link" href="#">Services</a>
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+    </div>
+    <div class="container-fluid d-none d-lg-block">
+      <div class="row">
         <ul
-          class="nav  logo align-items-end padIcon"
+          class="nav logo align-items-end padIcon"
           style="background-color: #f2cdba"
         >
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Shop</a>
+            <a class="nav-link" aria-current="page" href="./Pages/Shop.html">Shop</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Rooms">About Me</a>
+            <a class="nav-link" href="./Pages/AboutMe.Html">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Blog</a>
+            <a class="nav-link" href="./Pages/Blog.html">Blog</a>
           </li>
           <div class="logo d-flex justify-content-center">
-            <img
+          <a href="./index.html"> <img
               src="./Photos/Vector.png"
               style="height: 40px; padding-bottom: 7%"
             />
+          </a> 
           </div>
           <li class="nav-item">
-            <a class="nav-link" href="#Amenities">Garden</a>
+            <a class="nav-link" href="./Pages/Garden.html">Garden</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Contact">Nutrition</a>
+            <a class="nav-link" href="./Pages/Nutrition.html">Nutrition</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Reserve">Services</a>
+            <a class="nav-link" href="./Pages/DigitalServices.html">Services</a>
           </li>
         </ul>
       </div>
@@ -51,12 +73,13 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-12 col-lg-6 BG ">
-          <img
-            src="./Photos/Elisa.png"
-            class="img img-fluid"
-            alt="Photo of Elsa"
-            srcset=""
-          />
+        <a href="./index.html"><img
+          src="./Photos/Elisa.png"
+          class="img img-fluid"
+          alt="Photo of Elsa"
+          srcset=""
+        /></a>  
+         
         </div>
         <div class="col-12 col-md-12 col-lg-6 Txt1 ">
           <h1 class="sub-header-txt">Welcome</h1>
@@ -138,12 +161,12 @@
                     <label for="floatingInput">Messages</label>
                   </div>
               </div>
-              <div class="col-12 col-md-12 col-lg-3 mb-5">
+              <div class="col-12 col-md-12 col-lg-3 mb-5 d-flex justify-content-center">
                 <button type="button" class="btn btn-primary bodyTxt">Contact Us</button>
               </div>
             </div>
           <div class="container ">
-            <div class="row d-flex justify-content-center ">
+            <div class="row d-flex justify-content-center">
               <div class="col-4 d-flex justify-content-center mt-3">
                <img src="./Photos/Rectangle 11.png" class="img-fluid" alt="Picture of bed" srcset="">
               </div>
