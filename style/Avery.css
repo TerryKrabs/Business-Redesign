@@ -211,7 +211,14 @@ a.adLinks:hover{
     margin: 7%;
     margin-bottom: 5%;
 }
+.magicBodyTxt{
+    margin-right: 17%;
+    margin-left: 17%;
+}
 .magicList{
+    display: none;
+}
+.magicHr{
     display: none;
 }
 
@@ -225,6 +232,21 @@ a.adLinks:hover{
     }
     .magicList{
         display: block;
+    }
+    .magicBodyTxt{
+        margin-right: 15%;
+        margin-right: 15%;
+        margin-bottom: 7%;
+    }
+    .mobileBtn{
+        margin-bottom: 15%;
+    }
+    .magicHr{
+        display: block;
+        margin-top: 10%;
+    }
+    .normalBr{
+        display: none;
     }
     .adBox{
         margin-bottom: 0px;
@@ -313,5 +335,11 @@ a.adLinks:hover{
     .container-fluid{
         padding: 0px;
     }
-    
+    .headerTxt{
+        margin-bottom: 3%;
+    }
+    .sub-header-txt{
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
 }
