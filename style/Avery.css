@@ -49,6 +49,9 @@ hr{
     position: absolute;
     right: 18%;
 }
+.ftBodyTxt{
+    font-family: Nunito Sans;
+}
 .signup{
     margin-left: 5%;
 }
@@ -80,6 +83,10 @@ hr{
 .link-space-btm{
     padding-top: 5px;
     padding-bottom: 2%;
+}
+.ftInput{
+    height: 50px;
+    width: 50%;
 }
 .footerBtn{
     background-color: #471F29;
@@ -232,6 +239,42 @@ a.adLinks:hover{
     }
     .caroSize{
         margin-top: 20px;
+    }
+    .midBtn{
+        width: 55%;
+    }
+    .blogBtn{
+        width: 65%;
+    }
+    .blogBox{
+        width: 100%;
+    }
+    .blogPost{
+        width: 100%;
+    }
+    .footerbg{
+        padding-top: 10%;
+        margin-top: 6%;
+    }
+    .ftHeader{
+        right: 70%;
+    }
+    .ftBodyTxt{
+        margin: auto;
+        font-size: 20px;
+        margin-bottom: 1%;
+    }
+    .ftInput{
+        width: 90%;
+        margin: auto;
+        margin-top: 3%;
+    }
+    .footerBtn{
+        width: 20%;
+        position: relative;
+        left: 33%;
+        margin-top: 3%;
+        margin-bottom: 5%;
     }
     
 }
