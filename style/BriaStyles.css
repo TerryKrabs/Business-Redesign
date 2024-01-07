@@ -47,6 +47,10 @@
             height: 200px;
         }
     }
+    .btn-primary{
+        background-color: #F2CDBA!important;
+        color: #471F29!important;
+    }
     .marginsss{
         padding-top: 50px;
         padding-right: 300px;
