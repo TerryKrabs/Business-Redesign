@@ -30,6 +30,11 @@ a.foot-link:hover{
     color: #D05353;
     text-decoration: underline;
 }
+.padBlog{
+    padding-right: 12px!important;
+
+    padding-left: 12px!important;
+}
 hr{
     color: #D05353;
     border-color: #D05353;
@@ -405,6 +410,10 @@ a.adLinks:hover{
         }
        .form-control{
             height: 10px!important;
+        }
+        .bodyTxt{
+            padding-right: 15%;
+            padding-left: 15%;
         }
     }
     .btn-primary{
