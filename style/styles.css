@@ -239,9 +239,13 @@ a.adLinks:hover{
         display: block;
     }
     .magicBodyTxt{
-        margin-right: 15%;
-        margin-right: 15%;
-        margin-bottom: 7%;
+        /* margin-right: 15%;
+        margin-left: 15%;
+        margin-bottom: 7%; */
+          margin-right: 0%;
+        margin-left: 0%;
+        margin-bottom: 0%; 
+        text-align: center;
     }
     .mobileBtn{
         margin-bottom: 15%;
