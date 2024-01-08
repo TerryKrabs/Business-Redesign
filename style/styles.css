@@ -1,0 +1,566 @@
+@font-face {
+    font-family: Belanga;
+    src: url(../Fonts/Belanga.ttf);
+}
+@font-face {
+    font-family: Nunito Sans;
+    src: url(../Fonts/NunitoSans_10pt-Regular.ttf);
+}
+a.nav-link{
+    color:#471F29!important;
+    text-decoration : none;
+}
+a.nav-link:hover{
+    color:#D05353 !important;
+    text-decoration : underline;
+}
+.padIcon{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    }
+a.foot-link{
+    color: #471F29;
+    text-decoration: none;
+}
+a.foot-link:visited{
+    color: #471F29;
+    text-decoration: none;
+}
+a.foot-link:hover{
+    color: #D05353;
+    text-decoration: underline;
+}
+hr{
+    color: #D05353;
+    border-color: #D05353;
+    border: 1px solid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerbg{
+    background-color: #F2CDBA;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+.ftHeader{
+    font-family: Belanga;
+    font-size: 45px;
+    position: absolute;
+    right: 18%;
+}
+.ftBodyTxt{
+    font-family: Nunito Sans;
+}
+.signup{
+    margin-left: 5%;
+}
+.socials{
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+}
+.fthr{
+    color: #471F29;
+    border-color: #471F29;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.foot-col{
+    display: flex;
+    justify-content: center;
+}
+.foot-col2{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+.link-space{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.link-space-btm{
+    padding-top: 5px;
+    padding-bottom: 2%;
+}
+.ftInput{
+    height: 50px;
+    width: 50%;
+}
+.footerBtn{
+    background-color: #471F29;
+    border: none;
+    border-radius: 15px;
+    width: 8%;
+    height: 50px;
+}
+.ftBtnTxt{
+    color: white;
+    font-family: Nunito Sans;
+    font-size: 25px;
+}
+
+.headerTxt{
+    font-family: Belanga;
+    color: #A42D2D;
+    text-align: center;
+    font-size: 64px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+}
+.sub-header-txt{
+    font-family: Belanga;
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 1%;
+}
+.bodyTxt{
+    font-family: Nunito Sans;
+}
+a.wineBtn:hover{
+    background-color: #471F29;
+    border-color: #471F29;
+    text-decoration: underline white;
+}
+.wineBtn{
+    background-color: #471F29;
+    border: 1px solid #F2CDBA;
+    border-radius: 15px;
+}
+.btnTxt{
+    color: white;
+    font-family: Belanga;
+    font-size: 35px;
+    margin-bottom: 1px;
+}
+.midBtn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 13%;
+    margin: auto;
+}
+
+
+.blogBox{
+    display: grid;
+    grid-template-rows: 1fr 30px 1fr;
+    width: 95%;
+}
+.blogPost{
+    width: 90%;
+    place-self: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.cardBg{
+    background-color: #F2CDBA;
+}
+.headerBg{
+    background-color: #471F29;
+}
+.blog-head-txt{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 1px;
+}
+.blogTitle{
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1%;
+}
+.blogBtn{
+    display: grid;
+    place-items: center;
+    width: 14%;
+    text-align: center;
+    margin: auto;
+}
+.blog-btn-txt{
+    font-size: 35px;
+    margin: 15px;
+}
+
+.productBody{
+    border-top: 1px solid black;
+}
+.card-img-top{
+    height: 320px;
+    object-fit: cover;
+}
+
+.adBox{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+a.adLinks{
+    color: #471F29;
+}
+a.adLinks:visited{
+    color: #471F29;
+}
+a.adLinks:hover{
+    color: #D05353;
+}
+.caroSize{
+    margin: 7%;
+    margin-bottom: 5%;
+}
+.magicBodyTxt{
+    margin-right: 17%;
+    margin-left: 17%;
+}
+.magicList{
+    display: none;
+}
+.magicHr{
+    display: none;
+}
+
+/* media query- hide magicBox and magicImg */
+@media screen and (max-width: 576px) {
+    .magicBox{
+        display: none;
+    }
+    .magicImg{
+        display: none;
+    }
+    .magicList{
+        display: block;
+    }
+    .magicBodyTxt{
+        margin-right: 15%;
+        margin-right: 15%;
+        margin-bottom: 7%;
+    }
+    .mobileBtn{
+        margin-bottom: 15%;
+    }
+    .magicHr{
+        display: block;
+        margin-top: 10%;
+    }
+    .normalBr{
+        display: none;
+    }
+    .adBox{
+        margin-bottom: 0px;
+        margin-top: 10%;
+    }
+    .normalList{
+        display: none;
+    }
+    .adLinks{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .caroSize{
+        margin-top: 20px;
+    }
+    .midBtn{
+        width: 55%;
+    }
+    .blogBtn{
+        width: 65%;
+    }
+    .blogBox{
+        width: 100%;
+    }
+    .blogPost{
+        width: 100%;
+    }
+    .socials{
+       padding-right: 5%;
+    }
+    .footerbg{
+        padding-top: 10%;
+        margin-top: 6%;
+    }
+    .ftHeader{
+        right: 70%;
+    }
+    .ftBodyTxt{
+        margin: auto;
+        font-size: 20px;
+        margin-bottom: 1%;
+    }
+    .ftInput{
+        width: 90%;
+        margin: auto;
+        margin-top: 3%;
+    }
+    .footerBtn{
+        width: 20%;
+        position: relative;
+        left: 33%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    .link-space{
+        padding: 0px;
+    }
+    .link-space-btm{
+        padding-bottom: 7%;
+    }
+    .foot-link{
+        width: 180px;
+    }
+    .foot-col{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        text-align: center;
+        width: 100%;
+        padding: 0px;
+        margin: auto;
+        margin-bottom: 1%;
+        margin-top: 3%;
+    }
+    .foot-col2{
+        display: flex;
+        flex-flow: row wrap-reverse;
+        justify-content: space-evenly;
+        text-align: center;
+        width: 100%;
+        padding: 0px;
+        margin-right: 3%;
+        margin-left: 2%;
+        margin-bottom: 1%;
+    }
+    .container-fluid{
+        padding: 0px;
+    }
+    .headerTxt{
+        margin-bottom: 3%;
+    }
+    .sub-header-txt{
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+}
+/* BRIA STYLES */
+
+.Txt1{
+    font-size: 25px ;
+    font-weight:bold;
+    padding-top: 10%;
+    text-align: center;
+    }
+    .img{
+        height: 500px;
+    }
+    .Titletxt{
+        /* position: absolute;
+        top: 32%;
+        bottom: 50%;
+        color: #F2CDBA;
+       left: 20%; */
+       text-align: center;
+       padding-top: 12%;
+       color: #F2CDBA;
+    
+    }
+    .marginPhoto{
+        margin-left: 5%;
+    }
+    .nutritionTxt{
+        padding-right: 300px;
+        padding-left: 300px;
+     
+    }
+    @media screen and (max-width: 425px) {
+        .titleBox{
+            width: 150px;
+        }
+        .redBox2{
+            background-color: #471F29;
+            height: 700px;
+        }
+        .nutritionTxt{
+            padding-right: 0px;
+            padding-left: 0px;
+         
+        }
+        .picOfE{
+            display: flex;
+            justify-content: center;
+            height: 200px;
+        }
+        .titleBox{
+           
+            height: 100px!important;
+            position: absolute;
+            top: 12%!important;
+            bottom: 50%;
+            width: 300px;
+            margin-bottom: 40%;
+            left: 15%;
+            width: 50px;
+          
+        }
+       .form-control{
+            height: 10px!important;
+        }
+    }
+    .btn-primary{
+        background-color: #F2CDBA!important;
+        color: #471F29!important;
+    }
+    .marginsss{
+        padding-top: 50px;
+        padding-right: 300px;
+    }
+    .picOfE{
+        height: 500px;
+    }
+    .howTxt{
+        font-size: 30px;
+    }
+    .whiteTxt{
+        color: white;
+    }
+    .whiteDec{
+        text-decoration: underline;
+    }
+    .pinkTxt{
+        color:#D05353;
+    }
+    a.nav-link{
+        color:#471F29!important;
+        text-decoration : none;
+    }
+    a.nav-link:hover{
+        color:#D05353 !important;
+        text-decoration : underline;
+    }
+    .titleBox{
+        background-color: #471F29;
+        height: 120px;
+        position: absolute;
+        top: 15%;
+        bottom: 50%;
+        width: 300px;
+        margin-bottom: 40%;
+        left: 15%;
+        border-radius:20px ;
+    }
+    .inputGroup{
+    margin-left: 2% ;
+    }
+    .form-control{
+        border-radius: 0px;
+    }
+    .padIcon{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    }
+    .redBox{
+        background-color: #471F29;
+        height: 150px;
+    }
+    .redBox2{
+        background-color: #471F29;
+        height: 270px;
+    }
+    /* END OF BRIAS STYLES */
+
+
+    /* START OF X'S STYLES */
+    .privacyPol{
+        font-family: 'Chenla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 118px;
+        text-align: center;
+        color: black
+        }
+        
+        
+        .Hola{
+        font-family: 'Charmonman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 122px;
+        text-align: center;
+        color: #A42D2D;
+        }
+        .breakpoint{
+        /* margin: auto; */
+        margin-left: 113px;
+        width: 1600px;
+        border: 1.5px solid #D05353;
+        
+        }
+        .Blackbreakpoint{
+            margin-left: 52px;
+        width: 1600px;
+        border: 1.3px solid #000000;
+        
+        }
+        .Aeroponics{
+            font-family: 'Charmonman';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 76px;
+            text-align: center;
+            color: #000000;
+        }
+        
+        .gardenSpeech{
+            font-family: 'Nunito Sans' 'charmonman';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 33px;
+            text-align: center;
+            color: #000000;
+        }
+        
+        .expand{
+            margin-left: 113px;
+            width: 1600px;
+        }
+        .fixMe{
+            display: flex;
+            justify-content: center;
+        }
+        .policyTitles{
+            text-align: center;
+            font-size: 70px;
+            font-weight: 400;
+            line-height: 33px;
+        }
+        
+        .containerShrink{
+            width: 1700px;
+            justify-content: center;
+            display: block;
+            margin: auto;
+        }
+        
+        .policyTxt{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+        color: #000000;
+        
+        
+        }
+        
+        .BlackbreakpointV1{
+            margin-left: 105px;
+            width: 1600px;
+            border: 1px solid #000000;
+        }
