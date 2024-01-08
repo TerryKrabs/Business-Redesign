@@ -388,7 +388,7 @@ a.adLinks:hover{
         }
         .redBox2{
             background-color: #471F29;
-            height: 700px;
+            height: 500px!important;
         }
         .nutritionTxt{
             padding-right: 0px;
